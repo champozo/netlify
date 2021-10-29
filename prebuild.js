@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-const config = require('./cms-config')
+const config = require('./netlify-cms-config')
 
 const scanDirectories = config.collections.filter(collection => collection.extension === 'json').map(collection => ({
   inputDirectory: collection.folder,
