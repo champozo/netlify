@@ -8,7 +8,7 @@ module.exports = {
     {
       name: 'github',
       repo: 'champozo/netlify',
-      // base_url:' https://solaland-test.vercel.app',
+      base_url:'https://netlify-mu.vercel.app',
       auth_endpoint: 'api/auth/',
       branch: 'master',
     },
