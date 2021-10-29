@@ -20,7 +20,7 @@ module.exports = {
     {
       name: 'drop',
       label: 'Upcoming Drops',
-      folder: 'content/drops',
+      folder: 'public/content/drops',
       create: true,
       extension: 'json',
       slug: '{{fields.name}}',
