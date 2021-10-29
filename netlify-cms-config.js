@@ -20,10 +20,11 @@ module.exports = {
     {
       name: 'drop',
       label: 'Upcoming Drops',
-      folder: 'content',
+      folder: 'content/drops',
       create: true,
       extension: 'json',
-      slug: '{{slug}}',
+      slug: '{{fields.name}}',
+      identifier_field: 'name',
       fields: [
         { label: "Name", name: 'name', widget: 'string' },
         { label: 'Description', name: 'description', widget: 'text' },
