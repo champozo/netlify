@@ -22,6 +22,7 @@ module.exports = {
       label: 'Upcoming Drops',
       folder: 'content',
       create: true,
+      extension: 'json',
       slug: '{{slug}}',
       fields: [
         { label: "Name", name: 'name', widget: 'string' },
