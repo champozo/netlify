@@ -10,7 +10,7 @@ module.exports = {
       repo: 'champozo/netlify',
       // base_url:' https://solaland-test.vercel.app',
       auth_endpoint: 'api/auth/',
-      branch: 'main',
+      branch: 'master',
     },
   // load_config_file: false,
   media_folder: 'public/img/drops',
