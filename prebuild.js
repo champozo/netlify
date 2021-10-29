@@ -29,6 +29,6 @@ function processFiles({ inputDirectory, outputFile }) {
     const outputPath = path.join(process.cwd(), outputFile)
     fs.writeFileSync(outputPath, JSON.stringify(drops, null, 2))
 
-    console.log([inputDirectory, outputFile].join('=>'), drops.length)
+    console.log([inputDirectory, outputFile].join('=>'), 'JSON SIZE=>', drops.length)
   })
 }
